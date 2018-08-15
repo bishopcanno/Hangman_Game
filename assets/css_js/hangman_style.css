@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+}
+
+.hangmanHeaderOne{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 300%;
+}
+.directions{
+    font-family: 'Hanalei Fill', cursive;
+}
+#beginBtn{
+    font-family: 'Hanalei Fill', cursive;
+}
+#wordDisplay{
+    font-family: 'Hanalei Fill', cursive;
+}
+#hangImg{
+    opacity: .3;
+}
+#imgDiv{
+    position: relative;
+    bottom: 120;
+    z-index: -1;
+}

@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eric_Bs_Hangman</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">  -->
+    <!-- something is wrong with bootstrap and I could not get it to work with multiple classes -->
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css_js/hangman_style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="hangmanHeaderOne">Hangman</h1>
+        </div>
+        
+        <div class="directions">
+            <h2>Directions:</h2>
+            <h3>Click on the button below to begin</h3>
+            <h3>You will be given a random word and you must try to guess what it is</h3>
+            <h3>You will have 8 Guesses until you are hung</h3>
+            <h3>Hint: The Words are old west themed</h3>
+            <h3>Good luck...</h3>
 
+            <!-- <div id="imgDiv">
+                <img id="hangImg" src="assets/images_hangman/hangman.jpg">
+            </div>    -->
+        </div>
+
+        <div class="btnDiv">
+            <button id="beginBtn" >Begin</button>
+        </div>
+        
+        <div class="wordDiv">
+            <h1 id="wordDisplay"></h1>
+        </div>
+        
+        <div class="testDiv">
+            <h1 id="testDisplay"></h1>
+        </div>
+
+        <div class="guessDiv">
+            <h2 id="guessDisplay"></h2>
+        </div>
+         
+    </div>
+    <script src="./assets/css_js/hangman.js"></script>
+</body>
+</html>
